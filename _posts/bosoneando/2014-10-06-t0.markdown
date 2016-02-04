@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "t=0"
+date:   2014-10-06 14:39:56 +0100
+categories: bosoneando
+permalink: /bosoneando/:year/:month/:day/:title/
+---
+
+Hola a todos!
+
+
+Este es el capítulo inicial del blog que voy a escribir. El pretexto es tratar algunos temas de física con un estilo informal y accesible, aunque habrá entradas sobre todo tipo de asuntos, según cómo vengan las musas. 
+
+
+Espero que os guste. 
