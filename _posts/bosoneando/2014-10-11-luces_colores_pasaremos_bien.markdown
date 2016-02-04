@@ -14,7 +14,8 @@ Recientemente, la Fundación Nobel ha comunicado [la decisión](http://www.nobel
 
 
 
-##¡Únete a la banda!
+¡Únete a la banda!
+-----------------
 
 La mecánica cuántica predice que los electrones que forman parte de un átomo no pueden tener cualquier valor de energía. sino unos valores concretos correspondientes a los niveles del átomo. Estos niveles están caracterizados por cuatro números cuánticos ($$n$$ número cuántico principal, $$\ell$$ número cuántico azimutal, $$m_\ell$$ número cuántico magnético y $$m_s$$ número cuántico de espín). 
 
