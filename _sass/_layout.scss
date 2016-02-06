@@ -4,11 +4,11 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 90px;
+    min-height: 20px;
   color: #00ffff;
   text-align: left;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957);
+  background-image: linear-gradient(120deg, #74C7F5, #666666);
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -20,7 +20,7 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: right;
+    float: left;
 
     &,
     &:visited {
