@@ -6,7 +6,7 @@ categories: bosoneando
 permalink: /bosoneando/:year/:month/:day/:title/
 --- 
 
--> ![](http://www.mlahanas.de/Stamps/Data/PHPerson/thumbnails/Lagrange001.jpg) ![](http://www.mlahanas.de/Stamps/Data/PHPerson/thumbnails/Hamilton001.jpg) <-
+![](http://www.mlahanas.de/Stamps/Data/PHPerson/thumbnails/Lagrange001.jpg) ![](http://www.mlahanas.de/Stamps/Data/PHPerson/thumbnails/Hamilton001.jpg)
 
 La mecánica es la rama de la física que estudia el movimiento y sus causas. Aunque haya sido estudiada desde los albores de la humanidad ( al menos desde que a un intrépido homínido se le ocurrió lanzarle un proyectil al desdichado animal que se convertiría en su cena), empezó a ser una ciencia rigurosa con los trabajos de Galileo y Newton, que culminaron con sus tres leyes en 1687:
 
