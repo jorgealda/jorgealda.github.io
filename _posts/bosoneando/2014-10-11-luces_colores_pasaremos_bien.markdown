@@ -11,7 +11,7 @@ permalink: /bosoneando/:year/:month/:day/:title/
 Isamu Akasaki, Hiroshi Amano y Shuji Nakamura, © Nobel Media 2014
 
 
-Recientemente, la Fundación Nobel ha comunicado [la decisión](http://www.nobelprize.org/nobel_prizes/physics/laureates/2014/) de otorgar el Nobel de Física de 2014 a los físicos japoneses Isamu Akasaki, Hiroshi Amano y Shuji Nakamura "por la invención de diodos emisores de luz azul eficientes que han permitido fuentes de luz blanca brillantes y de bajo consumo". El premio no está exento de polémica, ya que el inventor del LED rojo, Nick Holonyak, se siente "decepcionado e irritado" por no haber sido reconocido.
+Recientemente, la Fundación Nobel ha comunicado [la decisión](http://www.nobelprize.org/nobel_prizes/physics/laureates/2014/) de otorgar el Nobel de Física de 2014 a los físicos japoneses Isamu Akasaki, Hiroshi Amano y Shuji Nakamura "por la invención de diodos emisores de luz azul eficientes que han permitido fuentes de luz blanca brillantes y de bajo consumo". El premio no está exento de polémica, ya que el inventor del LED rojo, Nick Holonyak, [se siente "decepcionado e irritado"](http://www.news-gazette.com/news/local/2014-10-07/updated-nobel-snub-former-ui-prof.html) por no haber sido reconocido.
 
 
 
@@ -34,7 +34,9 @@ Dependiendo de la estructura de bandas, los sólidos cristalinos se clasifican e
 En los semiconductores, a las temperaturas convencionales, un electrón puede ganar energía y pasar de los niveles superiores de la banda de valencia a los inferiores de la banda de conducción. Ahora, el material puede conducir la corriente eléctrica por dos motivos: en primer lugar, en la capa de conducción el electrón tiene libertad de movimiento por la red, y en la capa de valencia, porque el nivel que ha quedado vacío puede ser ocupado por los electrones vecinos, produciendo un movimiento de cargas. Para caracterizar este segundo proceso, en vez de tener que estudiar el movimiento de todos los electrones de la capa, es matemáticamente equivalente sustituirlo por una "partícula" que representa al nivel vacío, el hueco, de características físicas iguales al electrón original excepto su carga, que es positiva.
 
 Por motivo de la temperatura, se producen y aniquilan continuamente pares de electrón-hueco. Si el cristal se encuentra en equilibrio (no hay corriente eléctrica u otros aportes externos de energía), la concentración de los portadores de carga se estabiliza en unos valores característicos de cada material y temperatura.
+
 Dopaje
+-------
 
 Estas concentraciones se pueden modificar de forma externa durante el proceso de fabricación del material, añadiendo impurezas a la red. Estos átomos extraños aportan nuevos niveles (discretos) de energía a la estructura de bandas:
 
@@ -53,7 +55,7 @@ Una vez que se tienen distintos tipos de semiconductores, podemos proceder a rea
 
 En la zona de unión hay un proceso de difusión: los electrones pasan de la zona N a la P y los huecos a la inversa - no les gustan las multitudes, y están "más anchos" en el otro lado. Así, en la zona e transición en el material N hay un exceso de cargas positivas y en la zona P un exceso de cargas negativas. Esto crea una diferencia de potencial y un campo eléctrico. El campo atrae a los electrones hacia la región N y los huecos hacia la región P. En equilibrio, las tendencias de difusión y arrastre se compensan.
 
-
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pn-junction-equilibrium-graphs.png/640px-Pn-junction-equilibrium-graphs.png)
 
 Ahora vamos a conectar nuestra unión a una batería:
 
@@ -70,6 +72,7 @@ Hemos visto que en una unión PN trabajando con polarización directa hay proces
 
 Volvamos con nuestro viejo amigo el cuasimomento cristalino $$k$$: es una cantidad conservada. Si el electrón en el borde superior de la capa de valencia y en el borde inferior de la capa de conducción tienen el mismo cuasimomento, lo que se conoce como semiconductor de gap directo, el electrón puede pasar de un nivel a otro por la absorción o emisión de un fotón (que no transporta cuasimomento).
 
+![](http://francis.naukas.com/files/2014/10/Dibujo20141007-principle-of-light-emission-in-p-n-junction-nobelprize-org-580x187.png)
 
 Por el contrario, si los cuasimomentos en ambos extremos de las bandas no coinciden (gap indireto), la transición se hace acoplada a las vibraciones de la red - lo que es lo mismo, disipación como calor - que aporta la diferencia de cuasimomento. En principio, podría ir parte de la energía a la red y e a un fotón, pero es un proceso muy poco probable por involucrar más partículas, y el fotón no estaría en el rango visible.
 
@@ -80,10 +83,13 @@ Por lo tanto, una unión PN de semiconductores de gap directo con polarización 
 
 Colorín colorado...
 -----------------
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/RBG-LED.jpg/220px-RBG-LED.jpg)
 
 El primer LED operativo fue construido en 1961 por Biard y Pittman usando  arseniuro de galio, y emitía en infrarrojo. Holonyak inventó el primer LED visible, el rojo, tan solo un año después. En poco tiempo también estuvieron disponibles otros colores, como el amarillo y el verde. Pero el LED azul se hizo de rogar.
 
 El LED azul fue desarrollado en 1994 por el equipo receptor del Nobel. Está formado por distintas capas de nitruro de galio y nitruro de indio-galio. En nitruro de galio tiene una banda prohibida de 3.4 eV, correspondiente al ultravioleta próximo, y ya fue propuesto en los años 60 como el material idóneo para los diodos azules. Sin embargo, en aquella época no se contaba con la tecnología necesaria para fabricar cristales suficientemente grandes y para introducir impurezas aceptoras. Además, para aumentar la eficiencia de la emisión se usaron heterouniones, en las que el material P y el N tienen distinta composición química.
+
+![](http://francis.naukas.com/files/2014/10/Dibujo20141007-structure-blue-led-with-double-heterojunction-nobelprize-org-580x375.png)
 
 Estructura del LED azul con doble heterounión: Nakamura, Mukai & Senoh. Appl. Phys. Lett. 64, 1687 (1994)
 
@@ -93,15 +99,16 @@ Actualmente se construyen diodos láser azules que se emplean para la grabación
 
 La disponibilidad del LED azul permite la creación de LED blancos, de dos formas distintas: o bien, como en los monitores LED se puede crear el blanco (y el resto de colores) a partir de los tres colores primarios, o bien, como en las lámparas LED, por fosforescencia. El diodo emite luz azul, o incluso ultravioleta, que llega a una capa fosforescente, que absorbe la luz, y por efecto Stokes, la reemite con un espectro más ancho (luz blanca) y a menor frecuencia. El fundamento es similar a los clásicos fluorescentes, donde la luz ultravioleta inicial procede de la desexcitación de los átomos del vapor de mercurio tras haber sido ionizados por el cebador. La principal diferencia es que el LED es significativamente más eficaz (los LED proporcionan 300 lm/W, frente a los 70 lm/W de los fluorescentes o los 16 lm/W de una bombilla de filamento), siendo la fuente de iluminación - sin contar al Sol - más eficiente de la que disponemos. Y eso bien vale un Nobel.
 
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/7/76/LED_bulbs.jpg/640px-LED_bulbs.jpg)
 
 Para más información:
 ----------------------
 
-* The Royal Swedish Academy of Sciences: The Nobel Prize in Physics 2014 - Advanced Information
+* The Royal Swedish Academy of Sciences: [The Nobel Prize in Physics 2014 - Advanced Information](http://www.nobelprize.org/nobel_prizes/physics/laureates/2014/advanced.html)
 
-* Francis R. Villatoro: Nobel Física 2014: Akasaki, Amano y Nakamura por el diodo azul. La ciencia de la mula Francis.
+* Francis R. Villatoro: [Nobel Física 2014: Akasaki, Amano y Nakamura por el diodo azul](http://francis.naukas.com/2014/10/07/nobel-fisica-2014-akasaki-amano-y-nakamura-por-el-diodo-azul). La ciencia de la mula Francis.
 
-* Enrique F. Borja: Un Nobel pintado de azul. Cuentos Cuánticos. 
+* Enrique F. Borja: [Un Nobel pintado de azul](http://cuentos-cuanticos.com/2014/10/07/un-nobel-pintado-de-azul/). Cuentos Cuánticos. 
 
 
-Esta entrada partcipa en el LVII carnaval de la Física, celebrado en octubre de 2014 y albergado por el blog Divulgación, y con el tema "Física y divulgación". 
+Esta entrada partcipa en el [LVII carnaval de la Física](https://kapy83.wordpress.com/2014/10/09/edicion-lvii-del-carnaval-de-la-fisica/), celebrado en octubre de 2014 albergado por el blog [Divulgación](http://kapy83.wordpress.com/), y con el tema "Física y divulgación". 
